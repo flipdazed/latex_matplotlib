@@ -1,7 +1,30 @@
 Easily $\LaTeX$ `matplotlib` plots
 ===============
 
-##Get it working
+**Requirements**
+ - `matplotlib`
+ - `numpy` just for demos though but who doesn't have `numpy`!?
+ - `LaTeX` this is kind of obvious - [get it here](https://www.latex-project.org/get/)
+ - May work on `Windows`. If it doesn't get [`Ubuntu`](http://www.ubuntu.com/) like most other programmers!
+
+## Contents
+ - [Lazy Start](#ls)
+ - [Not So Lazy Start](#nsls)
+ - [Usage Examples](#e)
+
+<a name="ls"/>
+## Lazy Start
+You're lazy and don't care about copying code from unknown sources? Just copy past all of this in a sensible location e.g. `~/Documents/pythonScripts/` and it will sort everything
+
+    git clone https://github.com/flipdazed/latex_matplotlib.git
+    LOC=$(pwd)
+    echo 'export PYTHONPATH="'$LOC'/latex_matplotlib:$PYTHONPATH"' >> ~/.bash_profile
+    source ~/.bash_profile
+
+<a name="nsls"/>
+## Not Lazy Start
+You should probably read this...
+
 Clone this repository
 
     git clone https://github.com/flipdazed/latex_matplotlib.git
@@ -20,15 +43,8 @@ where `/LOCATION/TO/` is the location to `latex_matplotlib` that can be found by
 
 This may be obvious but if you delete the directory it won't work anymore!
 
-### copy-paste quick start
-Just copy past all of this in a sensible location e.g. `~/Documents/pythonScripts/`
-
-    git clone https://github.com/flipdazed/latex_matplotlib.git
-    LOC=$(pwd)
-    echo 'export PYTHONPATH="'$LOC'/latex_matplotlib:$PYTHONPATH"' >> ~/.bash_profile
-    source ~/.bash_profile
-
-##Usage
+<a name="e"/>
+##Usage Examples
 The following example is found in `examples/basic.py`
 
     
