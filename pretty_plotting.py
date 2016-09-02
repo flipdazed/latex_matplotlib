@@ -7,6 +7,7 @@ import subprocess
 class Pretty_Plotter(object):
     """contains things to make plots look nice"""
     def __init__(self):
+        self._teXify()
         pass
     
     def _teXify(self):
